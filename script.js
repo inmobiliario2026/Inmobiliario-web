@@ -14,8 +14,3 @@ document.querySelectorAll('.main-nav a').forEach(link => {
     toggle.textContent = '☰';
   });
 });
-
-document.querySelector('[data-placeholder="whatsapp"]').addEventListener('click', (event) => {
-  event.preventDefault();
-  alert('Aquí conectaremos el número real de WhatsApp de AVERUM.');
-});

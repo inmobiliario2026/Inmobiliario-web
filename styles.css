@@ -732,3 +732,52 @@ button{font:inherit}
   .experience-grid article>p:not(.project-year){min-height:auto}
   .experience .section-heading h2{font-size:43px}
 }
+
+.emphasis-subbrand,
+.engineering-kicker{
+  color:#d7b77c !important;
+}
+.business-lines article:nth-child(3){
+  background:
+    linear-gradient(145deg,rgba(184,153,99,.055),transparent 55%),
+    #0d0d0d;
+}
+.business-lines article:nth-child(3) h2{
+  max-width:430px;
+}
+.experience{
+  position:relative;
+  overflow:hidden;
+}
+.experience::before{
+  content:"";
+  position:absolute;
+  width:520px;
+  height:520px;
+  right:-220px;
+  top:-180px;
+  border:1px solid rgba(184,153,99,.12);
+  transform:rotate(18deg);
+  pointer-events:none;
+}
+.experience-grid article{
+  transition:transform .2s ease,border-color .2s ease;
+}
+.experience-grid article:hover{
+  transform:translateY(-2px);
+  border-color:#51483a;
+}
+@media(max-width:880px){
+  .business-lines article:nth-child(3){
+    background:linear-gradient(145deg,rgba(184,153,99,.055),transparent 70%),#0d0d0d;
+  }
+  .business-lines article:nth-child(3) h2{
+    font-size:34px;
+  }
+  .experience::before{
+    width:330px;
+    height:330px;
+    right:-190px;
+    top:-120px;
+  }
+}
