@@ -2,74 +2,210 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="AVERUM integra propiedades, diseño y ejecución de proyectos para crear espacios que generan valor.">
-  <title>AVERUM | Properties · Design · Projects</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="AVERUM integra propiedades, diseño y ejecución de proyectos en Colombia. Espacios que generan valor.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>AVERUM | Propiedades · Diseño · Proyectos</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="nav">
-  <a class="brand" href="#inicio">AVERUM<span>PROPERTIES · DESIGN · PROJECTS</span></a>
-  <button class="menu" aria-label="Abrir menú">☰</button>
-  <nav>
-    <a href="#inicio">Inicio</a><a href="#propiedades">Propiedades</a><a href="#design">Diseño</a>
-    <a href="#projects">Proyectos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="AVERUM inicio">
+    AVERUM
+    <span>PROPERTIES · DESIGN · PROJECTS</span>
+  </a>
+
+  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+  <nav class="main-nav" aria-label="Navegación principal">
+    <a href="#inicio">Inicio</a>
+    <a href="#propiedades">Propiedades</a>
+    <a href="#design">Diseño</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
   </nav>
-  <a class="outline desktop" href="#contacto">Hablemos</a>
+
+  <a class="header-cta" href="#contacto">Hablemos</a>
 </header>
 
 <main>
-<section id="inicio" class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">PROPERTIES · DESIGN · PROJECTS</p>
-    <h1>Espacios que<br>generan valor.</h1>
-    <p class="lead">Una visión integral para propiedades, transformación de espacios y ejecución de proyectos.</p>
-    <div class="actions"><a class="btn" href="#propiedades">Explorar propiedades</a><a class="outline" href="#nosotros">Conocer AVERUM</a></div>
-  </div>
-</section>
+  <section id="inicio" class="hero">
+    <div class="hero-art" aria-hidden="true">
+      <div class="arch arch-one"></div>
+      <div class="arch arch-two"></div>
+      <div class="arch arch-three"></div>
+    </div>
 
-<section class="divisions">
-  <article><span>01</span><h2>Properties</h2><p>Comercialización de propiedades e inversiones que generan patrimonio.</p><a href="#propiedades">Ver propiedades →</a></article>
-  <article><span>02</span><h2>Design</h2><p>Diseño, remodelación, adecuaciones y acabados para transformar espacios.</p><a href="#design">Conocer Design →</a></article>
-  <article><span>03</span><h2>Projects</h2><p>Obras, mantenimiento y proyectos privados ejecutados con precisión.</p><a href="#projects">Conocer Projects →</a></article>
-</section>
+    <div class="hero-content">
+      <p class="kicker">AVERUM · COLOMBIA</p>
+      <h1>Espacios que<br>generan valor.</h1>
+      <p class="hero-copy">Integramos propiedades, diseño y ejecución de proyectos bajo una misma visión.</p>
 
-<section id="propiedades" class="section light">
-  <div class="section-head"><div><p class="eyebrow dark">AVERUM PROPERTIES</p><h2>Propiedades seleccionadas</h2></div><p>Contenido demostrativo. Aquí incorporaremos los inmuebles reales.</p></div>
-  <div class="cards">
-    <article class="property"><div class="ph">FOTOGRAFÍA DE PROPIEDAD</div><div class="card-body"><small>APARTAMENTO · BOGOTÁ</small><h3>Propiedad destacada 01</h3><p>Área · habitaciones · baños · parqueaderos</p><a href="#contacto">Solicitar información →</a></div></article>
-    <article class="property"><div class="ph">FOTOGRAFÍA DE PROPIEDAD</div><div class="card-body"><small>CASA · BOGOTÁ</small><h3>Propiedad destacada 02</h3><p>Área · habitaciones · baños · parqueaderos</p><a href="#contacto">Solicitar información →</a></div></article>
-    <article class="property"><div class="ph">FOTOGRAFÍA DE PROPIEDAD</div><div class="card-body"><small>LOTE · COLOMBIA</small><h3>Propiedad destacada 03</h3><p>Área · ubicación · características</p><a href="#contacto">Solicitar información →</a></div></article>
-  </div>
-</section>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#propiedades">Explorar propiedades</a>
+        <a class="btn btn-ghost" href="#nosotros">Conocer AVERUM</a>
+      </div>
+    </div>
 
-<section id="design" class="split">
-  <div class="visual"><span>ANTES / DESPUÉS</span></div>
-  <div class="copy"><p class="eyebrow">AVERUM DESIGN</p><h2>Transformamos espacios con propósito.</h2><p>Diseño interior, remodelaciones, cocinas, baños, acabados y adecuaciones para espacios residenciales y comerciales.</p><a class="text-link" href="#contacto">Cuéntanos sobre tu espacio →</a></div>
-</section>
+    <div class="hero-meta">
+      <span>PROPERTIES</span><span>DESIGN</span><span>PROJECTS</span>
+    </div>
+  </section>
 
-<section id="projects" class="split reverse">
-  <div class="visual project"><span>PROYECTOS / OBRAS</span></div>
-  <div class="copy"><p class="eyebrow">AVERUM PROJECTS</p><h2>De la idea a la ejecución.</h2><p>Desarrollamos proyectos privados con una visión integral, desde la planificación y adecuación hasta la entrega.</p><a class="text-link" href="#contacto">Hablar sobre un proyecto →</a></div>
-</section>
+  <section class="business-lines">
+    <article>
+      <p class="number">01</p>
+      <p class="subbrand">AVERUM PROPERTIES</p>
+      <h2>Propiedades</h2>
+      <p>Comercialización de inmuebles e inversiones orientadas a generar patrimonio.</p>
+      <a href="#propiedades">Explorar propiedades →</a>
+    </article>
 
-<section id="nosotros" class="section about">
-  <p class="eyebrow">SOBRE AVERUM</p><h2>Una visión integral del espacio.</h2>
-  <p class="big">AVERUM integra propiedades, diseño y ejecución de proyectos bajo una misma visión: crear, transformar y potenciar espacios que generen valor.</p>
-  <div class="values"><div><b>01</b><span>Visión integral</span></div><div><b>02</b><span>Diseño</span></div><div><b>03</b><span>Ejecución</span></div><div><b>04</b><span>Valor</span></div></div>
-</section>
+    <article>
+      <p class="number">02</p>
+      <p class="subbrand">AVERUM DESIGN</p>
+      <h2>Diseño y transformación</h2>
+      <p>Diseño interior, remodelación, adecuaciones y acabados para espacios residenciales y comerciales.</p>
+      <a href="#design">Conocer Design →</a>
+    </article>
 
-<section id="contacto" class="contact">
-  <p class="eyebrow">CONTACTO</p><h2>¿Tiene una propiedad<br>o un proyecto en mente?</h2><p>Hablemos.</p>
-  <div class="actions"><a class="btn" href="#" data-placeholder="whatsapp">WhatsApp</a><a class="outline" href="mailto:contacto@averum.example">Solicitar información</a></div>
-  <small>Datos de contacto provisionales · Bogotá, Colombia</small>
-</section>
+    <article>
+      <p class="number">03</p>
+      <p class="subbrand">AVERUM PROJECTS</p>
+      <h2>Proyectos y ejecución</h2>
+      <p>Obras, adecuaciones, mantenimiento y proyectos privados desarrollados con una visión integral.</p>
+      <a href="#projects">Conocer Projects →</a>
+    </article>
+  </section>
+
+  <section id="propiedades" class="section section-light">
+    <div class="section-heading">
+      <div>
+        <p class="kicker dark">AVERUM PROPERTIES</p>
+        <h2>Propiedades seleccionadas</h2>
+      </div>
+      <p>Estas propiedades son demostrativas. Después reemplazaremos cada ficha con los inmuebles reales de AVERUM.</p>
+    </div>
+
+    <div class="property-list">
+      <article class="property-card">
+        <div class="property-image image-one">
+          <span class="status">Destacada</span>
+          <span class="image-label">Fotografía del inmueble</span>
+        </div>
+        <div class="property-info">
+          <p class="property-type">APARTAMENTO · BOGOTÁ</p>
+          <h3>Propiedad destacada 01</h3>
+          <div class="property-specs"><span>120 m²</span><span>3 hab.</span><span>3 baños</span></div>
+          <p class="property-price">Precio por definir</p>
+          <a href="#contacto">Solicitar información →</a>
+        </div>
+      </article>
+
+      <article class="property-card">
+        <div class="property-image image-two">
+          <span class="status">Disponible</span>
+          <span class="image-label">Fotografía del inmueble</span>
+        </div>
+        <div class="property-info">
+          <p class="property-type">CASA · BOGOTÁ</p>
+          <h3>Propiedad destacada 02</h3>
+          <div class="property-specs"><span>220 m²</span><span>4 hab.</span><span>4 baños</span></div>
+          <p class="property-price">Precio por definir</p>
+          <a href="#contacto">Solicitar información →</a>
+        </div>
+      </article>
+
+      <article class="property-card">
+        <div class="property-image image-three">
+          <span class="status">Inversión</span>
+          <span class="image-label">Fotografía del inmueble</span>
+        </div>
+        <div class="property-info">
+          <p class="property-type">LOTE · COLOMBIA</p>
+          <h3>Propiedad destacada 03</h3>
+          <div class="property-specs"><span>Área por definir</span><span>Ubicación</span></div>
+          <p class="property-price">Precio por definir</p>
+          <a href="#contacto">Solicitar información →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="design" class="feature-section">
+    <div class="feature-visual design-visual">
+      <div class="visual-caption">ANTES / DESPUÉS</div>
+    </div>
+    <div class="feature-copy">
+      <p class="kicker">AVERUM DESIGN</p>
+      <h2>Transformamos espacios con propósito.</h2>
+      <p>Diseñamos y renovamos espacios que combinan funcionalidad, estética y valor. Desde una remodelación puntual hasta una transformación integral.</p>
+      <div class="service-tags">
+        <span>Diseño interior</span><span>Remodelación</span><span>Cocinas</span><span>Baños</span><span>Acabados</span><span>Adecuaciones</span>
+      </div>
+      <a href="#contacto">Cuéntanos sobre tu espacio →</a>
+    </div>
+  </section>
+
+  <section id="projects" class="feature-section reverse">
+    <div class="feature-visual projects-visual">
+      <div class="visual-caption">OBRAS / PROYECTOS</div>
+    </div>
+    <div class="feature-copy">
+      <p class="kicker">AVERUM PROJECTS</p>
+      <h2>De la idea a la ejecución.</h2>
+      <p>Desarrollamos proyectos privados y adecuaciones con una visión integral: planeación, coordinación, ejecución y entrega.</p>
+      <a href="#contacto">Hablar sobre un proyecto →</a>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section about">
+    <p class="kicker">SOBRE AVERUM</p>
+    <div class="about-grid">
+      <h2>Una visión integral del espacio.</h2>
+      <div>
+        <p class="about-copy">AVERUM integra propiedades, diseño y ejecución de proyectos bajo una misma visión: crear, transformar y potenciar espacios que generen valor.</p>
+        <p class="about-small">La marca está siendo desarrollada para operar en Colombia con una identidad sobria, corporativa y contemporánea.</p>
+      </div>
+    </div>
+
+    <div class="values">
+      <div><b>01</b><span>Visión integral</span></div>
+      <div><b>02</b><span>Diseño</span></div>
+      <div><b>03</b><span>Ejecución</span></div>
+      <div><b>04</b><span>Valor</span></div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <p class="kicker">CONTACTO</p>
+    <h2>¿Tienes una propiedad<br>o un proyecto en mente?</h2>
+    <p class="contact-lead">Hablemos.</p>
+
+    <div class="hero-actions centered">
+      <a class="btn btn-gold" href="#" data-placeholder="whatsapp">WhatsApp</a>
+      <a class="btn btn-ghost" href="mailto:contacto@averum.example">Solicitar información</a>
+    </div>
+
+    <p class="contact-note">Datos de contacto provisionales · Bogotá, Colombia</p>
+  </section>
 </main>
 
-<footer><div class="brand">AVERUM<span>PROPERTIES · DESIGN · PROJECTS</span></div><p>© 2026 AVERUM · Versión inicial</p></footer>
+<footer class="footer">
+  <div class="brand">AVERUM<span>PROPERTIES · DESIGN · PROJECTS</span></div>
+  <div class="footer-links">
+    <a href="#propiedades">Propiedades</a>
+    <a href="#design">Diseño</a>
+    <a href="#projects">Proyectos</a>
+  </div>
+  <p>© 2026 AVERUM · Versión 2</p>
+</footer>
+
 <script src="script.js"></script>
 </body>
 </html>
