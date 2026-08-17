@@ -644,3 +644,12 @@ button{font:inherit}
   .property-type{font-size:7px}
   .property-info h3{font-size:21px}
 }
+
+.scroll-target{scroll-margin-top:78px}
+@media(max-width:880px){
+  .scroll-target{scroll-margin-top:68px}
+  .site-header{box-shadow:0 8px 24px rgba(0,0,0,.16)}
+  .business-lines article{padding-top:31px;padding-bottom:34px}
+  .contact h2{font-size:44px;line-height:.95}
+  .about-copy{font-size:23px}
+}
